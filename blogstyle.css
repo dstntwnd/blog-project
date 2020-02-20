@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: cursive;
+    font-size: 20px;
+    height: fit-content;
+}
+
+body, html{
+    height: fit-content
+}
+
+.bg{
+    background-image: url("https://www.backpacker.com/.image/t_share/MTQ0OTE0MTA4OTAzOTI1MzEz/mt-rainier.jpg");
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h3{
+    color: darkslateblue;
+    margin-left: 15px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.maintext{
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+img{
+    margin-left: 15px;
+}
+
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogpost{
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 70%;
+    float: left;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 4px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.otherposts{
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 25%;
+    float: left;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 4px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.othertext{
+    text-align: inherit;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.morespace{
+    background-color: rgba(245, 245, 245, 0.5);
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 4px;
+}
+
+.bottombox{
+    text-align: center;
+    font-size: 25px;
+    color: darkviolet;
+}
+
+.comment{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-left: 33%;
+}
+
+.submit{
+    margin-left: 49%;
+    margin-bottom: 20px;
+}
